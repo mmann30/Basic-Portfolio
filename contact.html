@@ -2,66 +2,80 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Contact</title>
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
 	<header>
-		
-		<div id="nametag">
+
+		<div id="header-wrapper">
 			
 			<h1> Michael Mann </h1>
 		
-		</div>
-		
-		<nav>
-		
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+			<nav>
+			
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
 
-		</nav>
+			</nav>
+		</div>
 
 	</header>
 
-	<div id="contact">
-		
-		<h1> Contact </h1>
+	<div id="content-area">
 
-		<hr>
+		<div id="content-wrapper">
 
-		<form>
-			
-			Name <br>
-			<input type="text" name="name"><br>
-			Email <br>
-			<input type="text" name="email"><br>
-			Message <br>
-			<input type="text" name="message"><br><br>
-			<input type="submit" value="Submit">
-			
-		</form>
-	
-	</div>
+		<!-- Content area that changes between the pages of the portfolio website -->
 
-	<div id="connect">
-		
-		<h2>Connect with Me </h2>
+			<div id="main-content">
+				
+				<h1> Contact </h1>
 
-		<hr>
+				<hr>
 
-		<ul>
-			<li><a href="#"><img src="#"></a></li>
-			<li><a href="#"><img src="#"></a></li>
-			<li><a href="#"><img src="#"></a></li>
-		</ul>
+				<form>
+					
+					Name <br>
+					<input type="text" name="name"><br>
+					Email <br>
+					<input type="text" name="email"><br>
+					Message <br>
+					<input type="text" name="message"><br><br>
+					<input type="submit" value="Submit">
+					
+				</form>
+				
+			</div>
+
+			<!-- End of Content area -->
+
+			<div id="sidebar">
+				
+				<h3>Connect with Me </h3>
+
+				<hr>
+
+				<ul>
+					<li><a href="#" target="_blank"><img src="assets/images/github_square.png" alt="Github icon"></a></li>
+					
+					<li><a href="#" target="_blank"><img src="assets/images/linkedin-square-social-media.png" atl="Linkedin icon"></a></li>
+					
+					<li><a href="#" target="_blank"><img src="assets/images/stackoverflow.png" atl="Stackoverflow icon"></a></li>
+				</ul>
+
+			</div>
+
+		</div>
 
 	</div>
 
 	<footer>
-
+		
 		<p>&copy;Copyright 2017 Michael Mann </p>
 
 	</footer>
