@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -140,4 +144,5 @@ footer{
 	text-align: center;
 	padding: 20px;
 	border-top: solid 5px #4aaaa5;
+	bottom: 0;
 }
