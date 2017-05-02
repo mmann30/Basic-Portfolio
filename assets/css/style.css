@@ -1,4 +1,4 @@
-html {
+html, body {
 	height: 100%;
 }
 
@@ -78,6 +78,13 @@ nav ul li a:hover {
 	background-image: url("../images/ignasi_pattern_s.png");
 	padding: 40px;
 	overflow: auto;
+	min-height: 100%;
+}
+
+#content-area:after {
+	content: "";
+	display: block;
+	height: 100px;
 }
 
 #content-wrapper {
