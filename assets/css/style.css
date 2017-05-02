@@ -13,6 +13,7 @@ h1, h3 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+
 header {
 	background-color: #ffffff;
 	height: 100px;
@@ -58,6 +59,10 @@ nav ul li a {
 	text-decoration: none;
 	color: #777777;
 }
+
+nav ul li a:hover {
+	color: #000000;
+}
 /*** Main Content Area ***/
 
 #content-area{
@@ -71,7 +76,7 @@ nav ul li a {
 	margin: auto;
 }
 
-/*Body content portion of each page that changes*/
+/*** Body content portion of each page that changes ***/
 #main-content{
 	background-color: #ffffff;
     border: solid 1px #ddd;
@@ -80,7 +85,27 @@ nav ul li a {
     padding: 20px;
 }
 
-/* Links to github, linkedin, stackoverflow accounts*/
+#main-content p {
+	margin-top: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/*** About page main content ***/
+#bio-image {
+	float: left;
+	margin: 20px;
+}
+
+/*** Contact page main content ***/
+/*Contact page css goes here*/
+
+/*** Portfolio page main content ***/
+/*Portfolio page css goes here*/
+
+
+/*** Links to github, linkedin, stackoverflow accounts ***/
 #sidebar {
 	width: 250px;
 	background-color: #ffffff;
@@ -101,7 +126,7 @@ nav ul li a {
 }
 
 
-/* footer */
+/*** footer ***/
 
 footer{
 	background-color: #666666;
