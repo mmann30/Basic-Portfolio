@@ -119,16 +119,25 @@ nav ul li a:hover {
 
 /*** Portfolio page main content ***/
 input {
-	width: 300px;
+	width: 570px;
 	border: solid 1px grey;
 	border-radius: 4px;
+	margin: 5px;
 }
 
 #input-message {
-	width: 500px;
     height: 100px;
 }
 
+#input-submit {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 100px;
+}
+
+#input-submit:hover {
+	background-color: #4a97aa;
+}
 
 /*** Links to github, linkedin, stackoverflow accounts ***/
 #sidebar {
