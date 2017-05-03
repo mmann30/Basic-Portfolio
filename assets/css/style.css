@@ -118,7 +118,16 @@ nav ul li a:hover {
 /*Contact page css goes here*/
 
 /*** Portfolio page main content ***/
-/*Portfolio page css goes here*/
+input {
+	width: 300px;
+	border: solid 1px grey;
+	border-radius: 4px;
+}
+
+#input-message {
+	width: 500px;
+    height: 100px;
+}
 
 
 /*** Links to github, linkedin, stackoverflow accounts ***/
