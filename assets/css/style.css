@@ -12,7 +12,7 @@ body {
 	margin: 0;
 }
 
-h1, h3 {
+h1, h2, h3 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
@@ -93,7 +93,7 @@ nav ul li a:hover {
 }
 
 /*** Body content portion of each page that changes ***/
-#main-content{
+.main-content{
 	background-color: #ffffff;
     border: solid 1px #ddd;
     width: 610px;
@@ -101,7 +101,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-#main-content p {
+.main-content p {
 	margin-top: 25px;
     font-size: 18px;
     line-height: 25px;
@@ -111,13 +111,57 @@ nav ul li a:hover {
 /*** About page main content ***/
 #bio-image {
 	float: left;
-	margin: 20px;
+	margin: 20px 20px 20px 0;
+}
+
+/*** Portfolio page main content ***/
+
+#portfolio-content {
+	position: relative;
+	height: 1000px;
+}
+
+
+.portfolio-project {
+	width: 260px;
+	height: 200px;
+	margin: 40px 0px 0px 0px;
+	position: absolute;
+}
+
+#project2 {
+	right: 20px;
+}
+
+#project3 {
+	left: 20px;
+	top: 300px;
+}
+
+#project4 {
+	right: 20px;
+	top: 300px;
+}
+
+#project5 {
+	right: 20px;
+	top: 540px;
+}
+
+.overlay {
+	position: absolute;
+    bottom: 10%;
+    width: 260px;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+.overlay h2 {
+	color: #ffffff;
 }
 
 /*** Contact page main content ***/
-/*Contact page css goes here*/
 
-/*** Portfolio page main content ***/
 input {
 	width: 570px;
 	border: solid 1px grey;
