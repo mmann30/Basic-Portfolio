@@ -81,19 +81,13 @@ nav ul li a:hover {
 	min-height: 100%;
 }
 
-#content-area:after {
-	content: "";
-	display: block;
-	height: 100px;
-}
-
 #content-wrapper {
 	width: 920px;
 	margin: auto;
 }
 
 /*** Body content portion of each page that changes ***/
-.main-content{
+.main-content {
 	background-color: #ffffff;
     border: solid 1px #ddd;
     width: 610px;
@@ -118,7 +112,7 @@ nav ul li a:hover {
 
 #portfolio-content {
 	position: relative;
-	height: 1000px;
+	height: 900px;
 }
 
 
@@ -135,17 +129,17 @@ nav ul li a:hover {
 
 #project3 {
 	left: 20px;
-	top: 300px;
+	top: 350px;
 }
 
 #project4 {
 	right: 20px;
-	top: 300px;
+	top: 350px;
 }
 
 #project5 {
-	right: 20px;
-	top: 540px;
+	left: 20px;
+	top: 590px;
 }
 
 .overlay {
@@ -154,6 +148,7 @@ nav ul li a:hover {
     width: 260px;
     text-align: center;
     background-color: #4aaaa5;
+    background-color: rgba(74,170,165, 0.7);
 }
 
 .overlay h2 {
